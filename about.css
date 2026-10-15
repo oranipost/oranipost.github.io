@@ -1,0 +1,27 @@
+/* Personal interests: scoped to the About page. */
+#interests{padding-top:44px;padding-bottom:76px;scroll-margin-top:0}
+#interests .interests-heading{display:grid;grid-template-columns:1.05fr .95fr;align-items:end;gap:48px;margin-bottom:31px}
+#interests .interests-heading .eyebrow{margin-bottom:17px}
+#interests .interests-heading h2{font-family:var(--sans);font-size:clamp(30px,3.25vw,44px);font-weight:500;letter-spacing:-.045em;line-height:1.2}
+#interests .interests-heading>p{max-width:450px;color:var(--muted);font-size:15px;line-height:1.95}
+#interests .interests-grid{display:grid;grid-template-columns:1.13fr .87fr;gap:22px;align-items:stretch}
+#interests .interest-card{position:relative;overflow:hidden;min-width:0;padding:31px 32px;border:1px solid #c5c1f326;border-radius:15px;background:linear-gradient(130deg,#ffffff05,#ffffff02);isolation:isolate}
+#interests .interest-card:before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 100% 0%,#a7b8fa0b,transparent 64%);pointer-events:none}
+#interests .interest-music{grid-row:span 2;padding:36px;background:linear-gradient(145deg,#252334a6,#171921b3)}
+#interests .interest-card-top{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:28px}
+#interests .interest-label{font-size:10px;line-height:1.7;letter-spacing:.11em;text-transform:uppercase;color:#b9b8c9}
+#interests .interest-icon{display:grid;place-items:center;flex-shrink:0;width:43px;height:43px;border:1px solid #b9c3f432;border-radius:12px;background:#bbc2fc08;color:#b6d1e2}
+#interests .interest-icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+#interests .interest-music .interest-icon{width:54px;height:54px;border-radius:50%;color:#c3bcf5;background:#bfb3fa0a}
+#interests .interest-music .interest-icon svg{width:27px;height:27px}
+#interests .interest-card h3{font-family:var(--sans);font-size:25px;line-height:1.3;letter-spacing:-.035em;font-weight:500;margin:0 0 15px;color:var(--ink)}
+#interests .interest-music h3{font-size:32px;line-height:1.25;margin-bottom:20px}
+#interests .interest-card>p{color:var(--muted);font-size:14px;line-height:1.95;margin:0}
+#interests .interest-card>p+p{margin-top:18px}
+#interests .interest-music>p{font-size:15px;line-height:1.95}
+#interests .interest-music .composer-note{color:#c9c5d5}
+#interests cite{font-style:normal;color:inherit}
+#interests .piano-note{position:relative;border-top:1px solid #c3c0e025;padding-top:23px!important;margin-top:29px!important;font-size:13px!important;line-height:1.95!important;color:#aaa8bc!important}
+#interests .piano-note>span{display:block;color:#d0cbdf;font-size:10px;line-height:1.7;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+@media(max-width:900px){#interests{padding-top:35px;padding-bottom:59px}#interests .interests-heading{grid-template-columns:1fr;gap:20px;margin-bottom:27px}#interests .interests-heading>p{max-width:640px}#interests .interests-grid{grid-template-columns:1.1fr .9fr;gap:18px}#interests .interest-card{padding:27px 25px}#interests .interest-music{padding:30px}#interests .interest-card h3{font-size:23px}#interests .interest-music h3{font-size:29px}#interests .interest-card-top{margin-bottom:23px}}
+@media(max-width:640px){#interests{padding-top:28px;padding-bottom:49px;scroll-margin-top:0}#interests .interests-heading h2{font-size:31px;line-height:1.25}#interests .interests-heading>p{font-size:14px;line-height:1.95}#interests .interests-grid{grid-template-columns:1fr;gap:17px}#interests .interest-music{grid-row:auto}#interests .interest-card,#interests .interest-music{padding:26px 24px;border-radius:13px}#interests .interest-card-top{margin-bottom:23px}#interests .interest-label{font-size:9px}#interests .interest-card h3,#interests .interest-music h3{font-size:26px;line-height:1.3;margin-bottom:17px}#interests .interest-card>p,#interests .interest-music>p{font-size:14px;line-height:1.95}#interests .interest-icon{width:41px;height:41px}#interests .interest-music .interest-icon{width:48px;height:48px}#interests .piano-note{font-size:12px!important;line-height:1.95!important;margin-top:25px!important;padding-top:20px!important}}
