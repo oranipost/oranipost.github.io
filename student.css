@@ -27,3 +27,5 @@
 @media(max-width:1000px){.intro{grid-template-columns:minmax(0,1fr) 285px;gap:36px}.portrait img{width:285px}}
 @media(max-width:800px){.intro{grid-template-columns:minmax(0,1fr) 240px;gap:28px}.portrait img{width:240px}}
 @media(max-width:560px){.portrait{width:min(100%,280px)}.portrait img{width:100%;height:auto}.intro{gap:28px}}
+
+.experience-feature figure>img.campus-portrait{height:auto;max-height:490px;object-fit:contain}
