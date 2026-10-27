@@ -13,7 +13,7 @@
     'campus.html': 'experience',
     'mascot.html': 'experience',
     'recognition.html': 'recognition',
-    'skills.html': 'skills',
+    'skills.html': 'interests',
     'about.html': 'about'
   });
   const aliases = Object.freeze({
@@ -31,8 +31,8 @@
     videos: 'experience',
     recognition: 'recognition',
     baftx: 'recognition',
-    skills: 'skills',
-    credentials: 'skills',
+    skills: 'interests',
+    credentials: 'interests',
     about: 'about',
     interests: 'interests',
     contact: 'contact'
