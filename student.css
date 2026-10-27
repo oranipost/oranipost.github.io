@@ -36,3 +36,5 @@
 @media(max-width:560px){.gcic-photos{grid-template-columns:1fr;gap:18px}}
 
 .personal-section{grid-template-columns:1fr}.personal-section>div{max-width:760px}
+
+.analysis-project{grid-template-columns:1fr}.analysis-intro{max-width:900px}
