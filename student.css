@@ -29,3 +29,8 @@
 @media(max-width:560px){.portrait{width:min(100%,280px)}.portrait img{width:100%;height:auto}.intro{gap:28px}}
 
 .experience-feature figure>img.campus-portrait{height:auto;max-height:490px;object-fit:contain}
+
+.gcic-photos{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:20px;margin-top:26px}
+.gcic-photos a{display:block}
+.gcic-photos img{width:100%;height:auto;border-radius:8px}
+@media(max-width:560px){.gcic-photos{grid-template-columns:1fr;gap:18px}}
